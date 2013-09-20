@@ -55,6 +55,7 @@
 
 	<target name="cleaned">
 		<init.dir dir="output" />
+		<init.dir dir="classes" />
 		<init.dir dir="${made_dir}" />
 		<init.dir dir="${dist_dir}" />
 	</target>

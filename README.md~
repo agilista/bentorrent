@@ -10,7 +10,7 @@ BenTorrent removes all the dependencies except for simple embedded server by cop
 stuff and have stubbed out the slf4j logging bit (still to do properly).
 
 
-**Why bother to remove a couple of lib files and repackage?**
+**Why bother to remove a coupe of lib files and repackage?**
 
 Well, this restful client / seeder / leecher component based on Ttorrent will eventually become part of a build system
 called Ben (Build ENtertainment)
