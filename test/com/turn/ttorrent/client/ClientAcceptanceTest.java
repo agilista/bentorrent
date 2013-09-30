@@ -30,7 +30,7 @@ public final class ClientAcceptanceTest {
     private SharedTorrent sharedCompleteTorrent() throws Exception {
         String folder = "test_resources/files";
         File testFile = new File(folder + "/file2.jar");
-        Torrent testTorrent = Torrent.create(testFile, new URI("http://ben:6969/announce"), "Test Person");
+        Torrent testTorrent = Torrent.create(testFile, new URI("http://localhost:6969/announce"), "Test Person");
         File parentFiles = new File(folder);
         return new SharedTorrent(testTorrent, parentFiles);
     }
